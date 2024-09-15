@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(222, 220, 220) !important;
+}
+
+.ui.inverted.top.fixed.menu {
+  background-color: rgb(52, 110, 97);
+}
+
+.ui.basic.button.orangeBtn:hover {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+  background-color: rgb(222, 220, 220) !important;
+}
+
+.ui.basic.button.orangeBtn {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+}
+
+.ui.basic.button.greenBtn:hover {
+  box-shadow: 0 0 0 1px rgb(52, 110, 97) inset;
+  color: rgb(52, 110, 97) !important;
+  border: 1px solid rgb(52, 110, 97) !important;
+  background-color: rgb(222, 220, 220) !important;
+}
+
+.ui.basic.button.greenBtn {
+  box-shadow: 0 0 0 1px rgb(52, 110, 97) inset;
+  color: rgb(52, 110, 97) !important;
+  border: 1px solid rgb(52, 110, 97) !important;
+}
+
+.ui.fluid.button.following {
+  box-shadow: 0 0 0 1px rgb(52, 110, 97) inset;
+  color: rgb(52, 110, 97) !important;
+  border: 1px solid rgb(52, 110, 97) !important;  
+}
+
+.ui.fluid.button.notFollowing {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+}
+
+.ui.right.floated.button.orangeBtn:hover {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+  background-color: rgb(222, 220, 220) !important;
+}
+
+.ui.right.floated.button.orangeBtn {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+}
+
+.ui.left.floated.button.orangeBtn:hover {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+  background-color: rgb(222, 220, 220) !important;
+}
+
+.ui.left.floated.button.orangeBtn {
+  box-shadow: 0 0 0 1px rgb(251, 167, 53) inset;
+  color: rgb(251, 167, 53) !important;
+  border: 1px solid rgb(251, 167, 53) !important;
+}
+
+.ui.menu:not(.vertical) .item {
+  font-size: 15px;
+}
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgba(24, 26, 28, .15);
+}
+
+.react-calendar__tile--active {
+  background: rgb(251, 167, 53) !important;
+  color: white;
+}
+
+.react-datepicker-wrapper {
+  width: 100%
+}
+
+input::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+.homePage {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(135deg, rgb(38, 69, 62) 0%, rgb(44, 97, 84) 69%, rgb(52, 110, 97) 89%) !important;
+  height: 100vh;
+}
+
+.homePage h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+  color: rgb(222, 220, 220) !important;
+}
